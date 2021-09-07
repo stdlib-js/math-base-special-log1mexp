@@ -91,6 +91,25 @@ for ( i = 0; i < x.length; i++ ) {
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/math/base/special/exp`][@stdlib/math/base/special/exp]: natural exponential function.
+-   [`@stdlib/math/base/special/ln`][@stdlib/math/base/special/ln]: natural logarithm.
+-   [`@stdlib/math/base/special/log1p`][@stdlib/math/base/special/log1p]: evaluate the natural logarithm of 1+x.
+-   [`@stdlib/math/base/special/log1pexp`][@stdlib/math/base/special/log1pexp]: evaluate the natural logarithm of 1+exp(x).
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 
 <section class="main-repo" >
 
@@ -146,7 +165,17 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-log1mexp/main/LICENSE
 
+<!-- <related-links> -->
+
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
+
 [@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+
+[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p
+
+[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp
+
+<!-- </related-links> -->
 
 </section>
 
