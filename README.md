@@ -24,30 +24,38 @@ limitations under the License.
 
 > Evaluates the [natural logarithm][@stdlib/math/base/special/ln] of `1-exp(-|x|)`.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-log1mexp
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var log1mexp = require( '@stdlib/math-base-special-log1mexp' );
+log1mexp = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log1mexp@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var log1mexp = require( 'path/to/vendor/umd/math-base-special-log1mexp/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log1mexp@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.log1mexp;
+})();
+</script>
 ```
 
 #### log1mexp( x )
@@ -81,9 +89,14 @@ y = log1mexp( NaN );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var incrspace = require( '@stdlib/array-base-incrspace' );
-var log1mexp = require( '@stdlib/math-base-special-log1mexp' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-incrspace@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-log1mexp@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 var x = incrspace( -10.0, 10.0, 0.01 );
 
@@ -91,6 +104,11 @@ var i;
 for ( i = 0; i < x.length; i++ ) {
     console.log( 'x: %d, f(x): %d', x[ i ], log1mexp( x[ i ] ) );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -185,13 +203,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp/tree/umd
 
-[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln
+[@stdlib/math/base/special/ln]: https://github.com/stdlib-js/math-base-special-ln/tree/umd
 
-[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p
+[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p/tree/umd
 
-[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp
+[@stdlib/math/base/special/log1pexp]: https://github.com/stdlib-js/math-base-special-log1pexp/tree/umd
 
 <!-- </related-links> -->
 
