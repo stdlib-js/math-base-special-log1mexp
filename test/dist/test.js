@@ -36,8 +36,8 @@ var log1mexp = require( './../../dist' );
 
 // FIXTURES //
 
-var data = require( './../..xtures/r/data.json' );
-var expected = require( './../..xtures/r/expected.json' );
+var data = require( './../fixtures/r/data.json' );
+var expected = require( './../fixtures/r/expected.json' );
 
 
 // TESTS //
