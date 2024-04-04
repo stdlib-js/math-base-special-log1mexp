@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-log1mexp",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Evaluate the natural logarithm of 1-exp(-|x|).",
   "license": "Apache-2.0",
   "author": {
@@ -46,8 +46,8 @@
     "@stdlib/math-base-napi-unary": "^0.2.1",
     "@stdlib/math-base-special-abs": "^0.2.1",
     "@stdlib/math-base-special-exp": "^0.2.2",
-    "@stdlib/math-base-special-expm1": "^0.2.1",
-    "@stdlib/math-base-special-ln": "^0.2.1",
+    "@stdlib/math-base-special-expm1": "^0.2.2",
+    "@stdlib/math-base-special-ln": "^0.2.2",
     "@stdlib/math-base-special-log1p": "^0.2.1",
     "@stdlib/utils-library-manifest": "^0.2.1"
   },
